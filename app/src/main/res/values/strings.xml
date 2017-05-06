@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="category_mood">Mood</string>
+    <string name="category_genre">Genre</string>
+    <string name="category_playlists">Playlist</string>
+    <string name="category_favorites">Favorite</string>
+    <string name="category_now_playing">Now playing</string>
+    <string name="popular_songs_title">Popular songs on MusicApp:</string>
+    <string name="popular_song_1">Song name and artist</string>
+    <string name="popular_song_2">Song name and artist</string>
+    <string name="popular_albums_title">Popular albums on MusicApp:</string>
+    <string name="popular_album_1">Album name and artist</string>
+    <string name="popular_album_2">Album name and artist</string>
+    <string name="view_song_button_main">View song</string>
+
+    <string name="description_main_activity">When a user enters the app, he/she can choose between 4 categories to look for songs,
+        (or will be able at a later stage to choose a song or album from those recommended on the main screen).
+        All songs in the app will be taken from the library of SoundCloud API. Each of the four categories + the "view song"
+        button opens a new activity when its text view (or button) is pressed.</string>
+    <string name="description_now_playing_text_view">This activity will contain a media player that will play songs from the library
+        of Sound Cloud API. Buttons for play, pause, next, previous, shuffle will be implemented and songs will be played using
+        the MediaPlayer class. The song progress will be displayed through a progress bar.
+        A button in the shape of a like (or a heart) will let the user add the songs to favorites category.
+        A share button will be available to share the song via social media.</string>
+    <string name="go_to_favorites_button">Go to favorites</string>
+    <string name="description_favorite_text_view">This category will list the songs and playlists that the user sets
+        as favorite.</string>
+    <string name="go_to_main_screen_from_favorites_button">Go to main screen</string>
+    <string name="description_mood_text_view">This category will let the user choose selected songs and playlists
+        that are recommended to be played according to his/her current mood. There will be several categories for each mood:
+        happy, sad, relaxing music, workout, in love etc. In case the user is a fan of one of the songs or playlists, he/she
+        will be able to add them to the favorite category.</string>
+    <string name="go_to_playlist_from_mood_button">Go to playlist</string>
+    <string name="description_playlist_text_view">This category will list playlists from SoundCloud library,
+        or custom playlists made by other users.</string>
+    <string name="go_to_genre_from_playlist_button">Go to genre</string>
+    <string name="description_genre_text_view">This category will let the user choose songs and albums depending
+        on different music genre categories (pop, rock, latin etc.).</string>
+    <string name="go_to_favorite_from_genre_button">Go to favorite</string>
+
+</resources>

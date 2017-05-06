@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background_main"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/separator"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/separator"
+                android:showDividers="middle">
+
+                <TextView
+                    android:id="@+id/category_mood"
+                    style="@style/category_style"
+                    android:background="@color/category_mood"
+                    android:text="@string/category_mood" />
+
+                <TextView
+                    android:id="@+id/category_playlists"
+                    style="@style/category_style"
+                    android:background="@color/category_playlists"
+                    android:text="@string/category_playlists" />
+
+                <TextView
+                    android:id="@+id/category_genre"
+                    style="@style/category_style"
+                    android:background="@color/category_genre"
+                    android:text="@string/category_genre" />
+
+                <TextView
+                    android:id="@+id/category_favorites"
+                    style="@style/category_style"
+                    android:background="@color/category_favorites"
+                    android:text="@string/category_favorites" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/popular_title"
+                android:text="@string/popular_songs_title" />
+
+            <TextView
+                style="@style/popular"
+                android:text="@string/popular_song_1" />
+
+            <TextView
+                style="@style/popular"
+                android:text="@string/popular_song_2" />
+
+            <TextView
+                style="@style/popular_title"
+                android:text="@string/popular_albums_title" />
+
+            <TextView
+                style="@style/popular"
+                android:text="@string/popular_album_1" />
+
+            <TextView
+                style="@style/popular"
+                android:text="@string/popular_album_2" />
+
+            <TextView
+                style="@style/activity_description"
+                android:text="@string/description_main_activity" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/view_song_button_main"
+        style="@style/view_song_button_main"
+        android:background="@color/color_view_song"
+        android:text="@string/view_song_button_main"
+        android:textColor="@color/color_white" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E91E63</color>
+    <color name="colorPrimaryDark">#C2185B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_background_main">#C2185B</color>
+    <color name="category_mood">#9C27B0</color>
+    <color name="category_genre">#8BC34A</color>
+    <color name="category_playlists">#00BCD4</color>
+    <color name="category_favorites">#FF9800</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_view_song">#E91E63</color>
+    <color name="color_background_button_view_song">#FFF9C4</color>
+</resources>
